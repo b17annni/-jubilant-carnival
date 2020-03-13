@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="eng">
+<head>
+	<title>WIP</title>
+	<meta charset="utf-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="rndstyle.css">
+    <script src="https://api.resrobot.se/v2/trip?key=808aabc0-1955-4159-b21c-46b52d70dce1&originCoordLat=59.293611&originCoordLong=18.083056&destCoordLat=59.330150&destCoordLong=18.056618&format=xml"></script>
+    <script src="https://api.resrobot.se/v2/location.nearbystops?key=808aabc0-1955-4159-b21c-46b52d70dce1&originCoordLat=59.329630&originCoordLong=18.059338&format=xml"></script>
+    <script src="js.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<button type="button" class="button" onclick="btnclick()">Tap me!</button>	
+		<div class="txtbox">
+				<p id="try"></p>
+        </div>
+        <input type="text" name="originCoordLat">
+        <input type="text" name="originCoordLong">
+        <input type="submit" id="edit-submit" name="op">
+	</div>
+</body>
+</html>
